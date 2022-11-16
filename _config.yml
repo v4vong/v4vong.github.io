@@ -1,0 +1,65 @@
+title: Song-Zi's Blog
+tagline: Writing is thinking
+description: This is the blog of Song-Zi Vong. Most of the content will be notes on math, physics, programming, etc.
+author:
+  name: Song-Zi Vong
+  url: https://github.com/v4vong
+  twitter: v4vong
+url: "https://v4vong.blog"
+twitter:
+  username: v4vong
+  card: summary
+social:
+  name: Song-Zi Vong
+  links:
+    - https://twitter.com/v4vong
+    - https://github.com/v4vong
+
+defaults:
+  - scope:
+      path: ""      
+      type: "posts"
+    values:
+      author: "Song-Zi Vong"
+  - scope:
+      path: ""      
+      type: "pages"
+    values:
+      author: "Song-Zi Vong"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+
+remote_theme: v4vong/jekyll-theme-fermi
+
+paginate: 20
+
+#google_analytics:
+
+disqus: v4vong
+
+categories_path: /categories/
+tags_path: /tags/
+
+include:
+  - _pages
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - script/
+  - CNAME
+  - README.md

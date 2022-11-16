@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Rye
+- Font Author: Copyright (c) 2012, Sorkin Type Co with Reserved Font Name 'Rye'
+- Font Source: http://fonts.gstatic.com/s/rye/v13/r05XGLJT86YDFpTsXOqx4w.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

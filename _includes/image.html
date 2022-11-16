@@ -1,0 +1,14 @@
+{% if include.path %}
+  {% assign src = include.path %}
+{% elsif include.name %}
+  {% capture src %}assets/img/posts/{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
+{% endif %}
+{% assign align = include.align | default: 'align-center' %}
+{% if include.des %}
+<figure>
+  <img src="{{ src | relative_url }}" alt="{{ include.des }}" class="{{ align }}" {% if include.width %}width="{{ include.width }}"{% endif %}>
+  <figcaption class="{{ align }}">{{ include.des }}</figcaption>
+</figure> 
+{% else %}
+<img src="{{ src | relative_url }}" alt="{{ include.alt }}" class="{{ align }}" {% if include.width %}width="{{ include.width }}"{% endif %}>
+{% endif %}
