@@ -39,7 +39,7 @@ remote_theme: v4vong/jekyll-theme-fermi
 
 paginate: 20
 
-#google_analytics:
+google_analytics: G-LXFK7KSFRM
 
 disqus: v4vong
 
