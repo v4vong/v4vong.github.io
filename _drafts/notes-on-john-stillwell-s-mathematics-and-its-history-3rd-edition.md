@@ -16,7 +16,7 @@ math: true
 
 ## Preface to the First Edition
 
-> This book aims to give a unified view of undergraduate mathematics by approaching the subject through its history. 
+> This book aims to give a unified view of undergraduate mathematics by approaching the subject through its history.
 
 The history is an approach instead of a target.
 
