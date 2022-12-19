@@ -130,7 +130,7 @@ The enumeration of the regular polyhedra is the climax of Euclid's *Elements*.
 
 One considers the possible polygons that can occur as faces, their angles, and the numbers of them that can occur at a vertex. For a 3-gon (triangle) the angle is \\(\pi/3\\), so 3, 4, or 5 can occur at a vertex, but 6 cannot, as this would give a total angle \\(2\pi\\) and the vertex would be flat. For a 4-gon (square) the angle is \\(\pi/2\\), so 3 can occur at a vertex, but not 4. For a 5-gon the angle is \\(3\pi/5\\), so 3 can occur at a vertex, but not 4. For a 6-gon the angle is \\(2\pi/3\\), so not even 3 can occur at a vertex. But at least three faces must meet at each vertex of a polyhedron, so 6-gons (and, similarly, 7-gons, 8-gons, ...) cannot occur as faces of a regular polyhedron. So there are at most 5 possibilities of regular polyhedra.
 
-For proving there are exactly 5 possibilities of regular polyhedra, we need to construct them.
+For proving there are exactly 5 possibilities of regular polyhedra, we need to construct [them](https://en.wikipedia.org/wiki/Platonic_solid).
 
 ### 2.3 Ruler and Compass Constructions
 
