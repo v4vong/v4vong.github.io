@@ -1,0 +1,50 @@
+/* Custom font family */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+/**
+ * Custom heading font sizes
+ *
+ * Algorithm:
+ *
+ *   H1 = 2/sqrt1 = 2
+ *   H2 = 2/sqrt2 = 1.414
+ *   H3 = 2/sqrt3 = 1.155
+ *   H4 = 2/sqrt4 = 1
+ *   H5 = 2/sqrt5 = 0.894
+ *   H6 = 2/sqrt6 = 0.816
+ */
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.414rem;
+}
+
+h3 {
+  font-size: 1.155rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.894rem;
+}
+
+h6 {
+  font-size: 0.816rem;
+}
+
+.post-content {
+  font-size: 1rem;
+}
